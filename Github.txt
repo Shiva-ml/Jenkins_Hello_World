@@ -1,0 +1,11 @@
+echo "# Jenkins_Hello_World" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Shiva-ml/Jenkins_Hello_World.git
+git push -u origin main
+
+git remote add origin https://github.com/Shiva-ml/Jenkins_Hello_World.git
+git branch -M master
+git push -u origin master
